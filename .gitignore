@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SLURM
+slurm/logs/
+
+# Large outputs
+*.nc
+*.zarr
+*.npy
+*.npz
+
+# Figures
+plots/
+
+# Processed data
+data/processed*
+
+# Calibration outputs
+data/Calibration/
+
+# Mac files
+.DS_Store

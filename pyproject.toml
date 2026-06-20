@@ -1,0 +1,25 @@
+[project]
+name = "pywbm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "cftime>=1.6.4",
+    "jax>=0.4.30",
+    "jupyterlab>=4.2.5",
+    "matplotlib>=3.9.2",
+    "nc-time-axis>=1.4.1",
+    "netcdf4>=1.7.1.post2",
+    "numpy>=2.0.2",
+    "optax>=0.2.3",
+    "pandas>=2.2.2",
+    "xarray>=2024.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
