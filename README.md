@@ -60,7 +60,6 @@ flowchart TD
 
     M --> M1[Monthly Climatologies]
     M --> M2[Seasonal Statistics]
-    M --> M3[Distributional Changes]
 
     L --> N[07 KDE Analysis]
 
